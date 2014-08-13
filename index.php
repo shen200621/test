@@ -1,7 +1,7 @@
 <?php
-$_ENV;
-$foo = array_change_key_case($array);
+$array = 'xumuwen sb dongdongdong';
+test($array);
 
-function test() {
-	
+function test($array) {
+	echo $array;
 }
